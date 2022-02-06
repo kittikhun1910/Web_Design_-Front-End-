@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon"  href="crypto-web\icon_bc.ico">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&family=Vollkorn:ital,wght@0,400;0,600;1,500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mitr', Medium;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+    font-family: 'Mitr', Medium;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #08D0B1;
+  color: #ffffff;
+  text-align: right;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1280px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 1535px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+<title>Blockchain.io</title>
+</head>
+<body>
+
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#" style="font-size: 30px; margin-left: 155px;">Blockchain</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://bitcoin.org/en/" style="font-size: 20px; margin-left: 50px;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://siamblockchain.com/bitcoin"style="font-size: 20px;" >NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.bitkub.com/" style="font-size: 20px;">Analysis</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success" type="submit" style="margin-right: 155px;">Register</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+      <img src="crypto-web\blockchainlogo.png" style="width: 250px; height: 200px; margin-left: 100px; border-radius: 50px;" alt="">
+      <img src="crypto-web\btcusdt.png" style="width: 60px; height: 60px; margin-left: 200px;" alt="">
+      <h4 style="color: #08D0B1; margin-left: 175px; margin-top: 20px;">BTCUSDT</h4>
+      <h6 style=" margin-left: 155px;">Bitcoin/ TetherUS</h6>
+      <h3 style="color: #08D0B1; margin-left: 165px;">45,467.25</h3>
+      <h6 style=" margin-left: 200px;">USDT</h6>
+
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1 style="font-size: 50px; font-weight: 500;">What is Bitcoin?</h1>
+    <p> Bitcoin (₿) is a decentralized digital currency, without a central bank or single 
+        administrator, that can be sent from user to user on the peer-to-peer 
+        bitcoin network without the need for intermediaries.[7] Transactions are 
+        verified by network nodes through cryptography and recorded in a public 
+        distributed ledger called a blockchain. The cryptocurrency was invented in 2008 
+        by an unknown person or group of people using the name Satoshi Nakamoto. 
+        The currency began use in 2009 when its implementation was released 
+        as open-source software. Bitcoins are created as a reward for a process 
+        known as mining. They can be exchanged for other currencies, products, and services. 
+        Bitcoin has been criticized for its use in illegal transactions, the large amount of 
+        electricity (and thus carbon footprint) used by mining, price volatility, 
+        and thefts from exchanges. Some investors and economists have characterized 
+        it as a speculative bubble at various times. Others have used it as an investment, 
+        although several regulatory agencies have issued investor alerts about bitcoin.
+        In September 2021, El Salvador officially adopted Bitcoin as legal tender, 
+        in the face of internal and international criticism, becoming the first nation 
+        to do so.</p>
+
+    <img src="crypto-web\btc.png" style="width: 100px; height: 100px; margin-top: 20px; border-radius: 100%; margin-left: 50px ;" alt="">
+    <img src="crypto-web\tranfer.png" style="width: 150px; height: 120px; margin-top: 20px; margin-left: 50px ; border-radius: 100%;" alt="">
+    <img src="crypto-web\handbit.png" style="width: 150px; height: 120px; margin-top: 20px; margin-left: 50px ; border-radius: 100%;" alt="">
+
+  </div>
+
+  <div class="col-3 col-s-12">
+  </div>
+</div>
+
+<div class="footer" style="height: auto; width: auto">
+  <img src="crypto-web\profile.jpg" style=" height: 40px ; width:40px; border-radius: 100%; margin-right: 20px;" alt="">
+  <p>@kitikhun1910</p>
+</div>
+
+</body>
+</html>
